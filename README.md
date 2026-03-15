@@ -2,7 +2,7 @@
 
 > FastAPI 项目脚手架工具 - 快速创建生产级 FastAPI 项目模板
 
-一个自动化脚本，用于快速初始化功能完整的 FastAPI 项目，集成了日志管理、配置管理、测试框架等最佳实践。
+一个 Python 脚本，用于快速初始化功能完整的 FastAPI 项目，集成了日志管理、配置管理、测试框架等最佳实践。
 
 ## 功能特性
 
@@ -16,7 +16,7 @@
 
 ## 环境要求
 
-- Bash 环境
+- Python 3.10+
 - [uv](https://github.com/astral-sh/uv) - Python 包管理工具
 
 ### 安装 uv
@@ -30,14 +30,14 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ### 基本用法
 
 ```bash
-./fastapi-new.sh <项目名称>
+./fastapi_new.py <项目名称>
 ```
 
 ### 示例
 
 ```bash
 # 创建一个名为 my-api 的项目
-./fastapi-new.sh my-api
+./fastapi_new.py my-api
 
 # 进入项目目录
 cd my-api
